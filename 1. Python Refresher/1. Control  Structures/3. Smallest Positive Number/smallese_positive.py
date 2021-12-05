@@ -1,3 +1,8 @@
+"""
+In the following exercise you will finish writing smallest_positive which is a function that finds the smallest positive number in a list.
+"""
+
+
 def smallest_positive(in_list):
     # TODO: Define a control structure that finds the smallest positive
     # number in in_list and returns the correct smallest number.
