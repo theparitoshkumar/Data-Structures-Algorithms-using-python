@@ -13,6 +13,15 @@ class Person:
     def getName(self):
         return self.person_name
 
+"""
+Let’s look at an example for how to create an instance of the Person class using the class template above. We can then access that Person’s name:
+"""
+
 bob = Person('Bob', 32)
 print(bob.getName())
 # prints Bob
+
+"""
+Currently, we have one function for getting the class’s variable. This is called an Accessor. The other function that the class has is actually modifying one of the class’ variables, and that is called a Mutator. We can make our Person older by calling birthday()
+"""
+
