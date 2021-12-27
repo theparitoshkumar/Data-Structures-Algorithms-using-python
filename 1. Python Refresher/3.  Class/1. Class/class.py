@@ -12,3 +12,7 @@ class Person:
 
     def getName(self):
         return self.person_name
+
+bob = Person('Bob', 32)
+print(bob.getName())
+# prints Bob
