@@ -55,6 +55,7 @@ def check_sudoku(square):
             if i not in check_list:
                 return False
             check_list.remove(i)
+    """
     for n in range(len(square[0])):
         # We do the same here for each column in the square.
         check_list = list(range(1, len(square[0]) + 1))
@@ -62,6 +63,7 @@ def check_sudoku(square):
             if row[n] not in check_list:
                 return False
             check_list.remove(row[n])
+    """
     return True
 
 
