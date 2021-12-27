@@ -25,3 +25,10 @@ print(bob.getName())
 Currently, we have one function for getting the class’s variable. This is called an Accessor. The other function that the class has is actually modifying one of the class’ variables, and that is called a Mutator. We can make our Person older by calling birthday()
 """
 
+bob.birthday()
+print(bob.person_age)
+# prints 33
+
+"""
+The birthday function call successfully increments the age of our Person. Also note that we can directly get the age of bob without using a function call. This is because the Person class variables are defined as public, so we can directly access them without a function call. If instead we wanted the Person’s age variable to be private to the class, in Python 3 we could put double underscores in front of the variable: __person_age. Then we would have to use a function call in order to retrieve it.
+"""
