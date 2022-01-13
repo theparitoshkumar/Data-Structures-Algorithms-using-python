@@ -12,5 +12,9 @@ it produces objects of
 beauty. A programmer who
 subconsciously views himself
 as an artist will enjoy what he
-does and will do it better.”
-– Donald Knuth
+does and will do it better.” – Donald Knuth
+
+# Flow of Control
+> “Don't you hate code that's not properly indented? Making it [indenting] part of the syntax guarantees that all code is properly indented.” – G. van Rossum
+
+
